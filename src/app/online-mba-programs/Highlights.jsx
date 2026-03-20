@@ -28,8 +28,8 @@ export default function Highlights() {
             className="w-full overflow-hidden rounded-2xl border border-gray-200"
           >
             <div
-              className="w-full overflow-hidden relative "
-                style={{ aspectRatio: "240/238" }}
+              className="w-full overflow-hidden relative"
+              style={{ aspectRatio: "240/238" }}
             >
               <Image
                 src={h.img}
