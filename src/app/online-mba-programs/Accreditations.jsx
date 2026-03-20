@@ -6,14 +6,10 @@ const ACCREDITATION_DATA = [
   { name: "NAAC",  image: "/naac.png"  },
   { name: "AICTE", image: "/aicte.png" },
   { name: "WES",   image: "/wes.png"   },
-  // { name: "AIU",   image: "/aiu.png"   },
   { name: "NIRF",  image: "/nirf.png"  },
-  // { name: "Manpower", image: "/manpower.png" },
-  // { name: "UGC",   image: "/ugc.png"   },
   { name: "UKAS",  image: "/ukas.png"  },
   { name: "IACBE", image: "/iacbe.png" },
   { name: "AACSB", image: "/aacsb.png" },
-  // { name: "QS",    image: "/qs.png"    },
 ];
 
 export default function Accreditations() {
@@ -84,29 +80,20 @@ export default function Accreditations() {
   }, [isPaused]);
 
   return (
-    <section className="pt-5 pb-5 px-4 md:px-10 md:pt-14 md:pb-14">
+    <section className="pt-5 pb-5 px-4 md:px-10 md:pt-14 md:pb-14 font-[Outfit]">
 
-      {/* Teal box */}
       <div
         className="rounded-2xl p-6 md:p-8 overflow-hidden"
         style={{ background: "#025E68" }}
       >
 
-        {/* Header */}
-        <h2
-          className="text-[28px] md:text-[48px] font-bold mb-2"
-          style={{ color: "#FFD23F", fontFamily: "Outfit, sans-serif" }}
-        >
+        <h2 className="text-[28px] md:text-[48px] font-bold mb-2 text-[#FFD23F]">
           Our Accreditations &amp; Recognitions
         </h2>
-        <p
-          className="text-[14px] md:text-[20px] mb-8"
-          style={{ color: "rgba(255,255,255,0.75)", fontFamily: "Outfit, sans-serif" }}
-        >
+        <p className="text-[14px] md:text-[20px] mb-8 text-white/75">
           Endorsements of Excellence, Recognitions and Accreditations Celebrating Academic Quality
         </p>
 
-        {/* Marquee */}
         <div
           className="relative overflow-hidden"
           ref={containerRef}
